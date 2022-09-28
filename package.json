@@ -13,10 +13,6 @@
     "prepare": "husky install",
     "build": "lerna run --stream --sort build"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Tencent/wujie.git"
-  },
   "author": "yiludege",
   "license": "MIT",
   "devDependencies": {
