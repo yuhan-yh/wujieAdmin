@@ -10,7 +10,8 @@
     "test": "lerna run test --scope wujie",
     "commitlint": "commitlint -E COMMIT_EDITMSG_PATH",
     "husky-commitlint": "commitlint -e",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "lerna run --stream --sort build"
   },
   "repository": {
     "type": "git",
